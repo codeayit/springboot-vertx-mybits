@@ -2,10 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
+      <profile name="Annotation profile for vertx-springboot-demo" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <option name="outputDirectory" value="D:\WorkSpace\javaweb_1\springboot-vertx-mybits/src/main" />
+        <processor name="io.vertx.codegen.CodeGenProcessor" />
         <module name="springboot-vertx-mybits" />
       </profile>
     </annotationProcessing>
